@@ -87,7 +87,7 @@ ul li.active a {
 
 .title {
     position: absolute;
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -107,14 +107,14 @@ ul li.active a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #f6f4f1;
-    font-size: 35px;
+    font-size: 60px;
     text-align: center;
     width: 80%;
 }
 
 .btn {
     position: absolute;
-    top: 72%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -411,6 +411,81 @@ ul li.active a {
     margin-bottom: 8px;
 }
 
+/* ── CONTACT SECTION ── */
+
+.contact {
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 80px 40px;
+}
+
+.contact-label {
+    color: #ffd717;
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contact-title {
+    color: #061b35;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    color: #555;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    line-height: 1.7;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: "Balthazar", serif;
+    background-color: #ffffff;
+    color: #061b35;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 1px solid #ffd717;
+}
+
+.contact-btn {
+    background-color: #ffd717;
+    color: #061b35;
+    border: none;
+    padding: 15px 40px;
+    font-size: 17px;
+    font-family: "Balthazar", serif;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.contact-btn:hover {
+    background-color: #061b35;
+    color: #ffd717;
+}
+
 /* ── FOOTER ── */
 
 footer {
@@ -485,4 +560,28 @@ footer {
     padding: 20px 0;
     color: #aaa;
     font-size: 13px;
+}
+
+.footer-social h4 {
+    color: #ffd717;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #f6f4f1;
+    font-size: 24px;
+    transition: color 0.3s ease;
+    border-bottom: none;
+}
+
+.social-icons a:hover {
+    color: #ffd717;
 }
